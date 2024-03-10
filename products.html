@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <title>Purrfect Warrior ● Products</title>
+
+</head>
+
+<body>
+    <header class="header-container">
+        <h1 class="kanit-light-logo">PURRFECT<br>WARRIOR</h1>
+        <div class="toggle-switch parent" id="darkmodebutton">
+            <label class="switch-label">
+                <input type="checkbox" class="checkbox" id="darkmodecheckbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+
+    <div class="spacer"></div>
+
+    </div>
+    <nav class="header-navigation">
+        <ul>
+            <li id="home" class=""><button class="navigation-button"><span><a href="index.html">HOME</a></span></button>
+            </li>
+            <li id="products" class="btn"><button><span><a href="products.html">PRODUCTS</a></span></button></li>
+            <li id="cart" class=""><button class="navigation-button"><span><a href="cart.html">CART</a></span></button>
+            </li>
+            <li id="contactus" class=""><button class="navigation-button"><span><a
+                            href="contactus.html">CONTACTS</a></span></button></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="front-page">
+            <div class="darkened-image">
+                <img src="img/products/products_front.webp" class="darkened-image">
+            </div>
+            <div class="text-overlay">
+                <p class="kanit-light2">SHOP ALL</p>
+                <h2 class="kanit-bold" style="letter-spacing:4px;">FIND THE<br>PERFECT FIT</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="text-div">
+                        <h1 class="kanit-light3">CATEGORY:<br><br>
+                            <div class="button-text"><a class="button-text" href="link1.html">TACTICAL GEAR</a>
+                            </div>&emsp;
+                            <div class="button-text"><a class="button-text" href="link2.html">CAMOUFLAGE GEAR</a>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-2 row-cols-md-3 g-2 mt-5 mb-5">
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/index/felinecombatglasses_alt.png')" onmouseout="changeImage(this, 'img/index/felinecombatglasses.png')">
+                        <div class="card-body p-0">
+                                <img src="img/index/felinecombatglasses.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Feline Combat Goggles</h1>
+                                <p class="kanit-light">LIGHT BLUE<br>
+                                ₱4,069.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/harness_alt.png')" onmouseout="changeImage(this, 'img/products/harness.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/harness.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Tactical Climbing Harnesses</h1>
+                                <p class="kanit-light">CAMO<br>
+                                ₱3,969.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/grenadeharness_alt.png')" onmouseout="changeImage(this, 'img/products/grenadeharness.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/grenadeharness.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Meowtary Grenade Harness</h1>
+                                <p class="kanit-light">CAMO<br>
+                                ₱2,069.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/helmet_alt.png')" onmouseout="changeImage(this, 'img/products/helmet.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/helmet.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Purrtection Helmet</h1>
+                                <p class="kanit-light">COOL BLACK<br>
+                                ₱3,969.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/cateyegoggles_alt.png')" onmouseout="changeImage(this, 'img/products/cateyegoggles.webp')">
+                        <div class="card-body p-0">
+                                <img src="img/products/cateyegoggles.webp" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Cat-Eye Goggles</h1>
+                                <p class="kanit-light">CHARCOAL BLACK<br>
+                                ₱5,069.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/sniper_alt.png')" onmouseout="changeImage(this, 'img/products/sniper.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/sniper.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Scratch Sniper Riffle</h1>
+                                <p class="kanit-light">CAMO<br>
+                                ₱3,969.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/vest_alt.png')" onmouseout="changeImage(this, 'img/products/vest.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/vest.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Camo Vest</h1>
+                                <p class="kanit-light">CAMO GREEN<br>
+                                ₱3,969.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/gear_alt.png')" onmouseout="changeImage(this, 'img/products/gear.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/gear.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Camo Gear</h1>
+                                <p class="kanit-light">BLACK AND CAMO<br>
+                                ₱3,969.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card image-wrapper" style="cursor: pointer;"onmouseover="changeImage(this, 'img/products/post_alt.png')" onmouseout="changeImage(this, 'img/products/post.png')">
+                        <div class="card-body p-0">
+                                <img src="img/products/post.png" class="card-img-top cropped-zoom-in" alt="...">
+                                <h1 class="kanit-semibold2" >Tactical Stratching Post</h1>
+                                <p class="kanit-light">CAMO<br>
+                                ₱3,969.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="spacer"></div>
+
+    <div class="extra-layer1"></div>
+    <div class="extra-layer2"></div>
+    <footer>
+        <h1>Copyright © 2023 By The Field Kitchen Co.</h1>
+    </footer>
+    <script src="purrfectwarrior.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
